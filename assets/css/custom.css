@@ -1,0 +1,327 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansmalayalam.css);
+h3.ml, h4.ml, p.ml, p.mll, figure.image.fit figcaption {
+    font-family: 'Noto Sans Malayalam', sans-serif;
+}
+h3.ml {
+    font-size: 28px;
+    line-height: 1.4;
+    color: #111;
+}
+h4.ml {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #111;
+}
+p.ml {
+    margin: 0 0 1.625em 0;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #2e2e2e;
+}
+p.ml b {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+div.inner p.ml {
+    font-size: 16px;
+    line-height: 1.6;
+}
+p.mll {
+    margin: 0 0 1em 0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #2e2e2e;
+}
+table.spec {
+    display: block;
+    overflow-x: auto;
+}
+table.spec thead, table.spec tbody, table.spec tr, table.spec th, table.spec td {
+    border: 1px solid #111;
+}
+table.spec th, table.spec td {
+    padding: 10px 20px;
+    line-height: 1.5em;
+    color: #111;
+    text-align: left;
+    vertical-align: middle;
+    background-color: white;
+}
+figure.image.fit  {
+    position: relative;
+}
+figure.image.fit figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 15px;
+    font-size: 0.875em;
+    line-height: 1.6;
+    color: #FFF;
+    background-color: #000;
+    opacity: 0.75;
+}
+.social_share {
+    margin: 0 0 1.25em 0;
+}
+.img-fluid figure, .img-fluid img {
+    display: block;
+    width: 100%;
+}
+.img-fluid figcaption span {
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.img-fluid figure figcaption {
+    padding: 0;
+}
+.img-fluid:nth-child(1) figcaption {
+    background-color: #ff9801;
+}
+.img-fluid:nth-child(2) figcaption {
+    background-color: #ea1e63;
+}
+.img-fluid:nth-child(3) figcaption {
+    background-color: #fe5722;
+}
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+  background-color: #FFF!important;
+}
+.pagination .container {
+    padding: 1em 0 2em !important;
+}
+.pagination ul {
+    padding: 0;
+}
+.pagination ul li {
+    display: inline-block;
+    margin: 0 .25em .25em 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.pagination ul li a {
+    display: block;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #333;
+    background-color: #e1e1e1;
+    border: none;
+    -webkit-transition:  color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s;
+}
+.pagination ul li a:hover {
+    color: #FFF!important;
+    background-color: #5052b5;
+}
+.pagination ul li a.active {
+    color: #FFF;
+    background-color: #5052b5;
+}
+
+section.gradient::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    height: 10px;
+    background: linear-gradient(
+    135deg,
+    rgb(156, 39, 176) 0% 25%,
+    rgb(255, 152, 0) 25% 50%,
+    rgb(233, 30, 99) 50% 75%,
+    rgb(255, 87, 34) 75% 100%);
+}
+section.gradient:first-child::before {
+    max-width: 100%;
+    width: 100%;
+}
+.root {
+    margin: 0 0 1em 0;
+}
+.root a {
+    font-size: 14px;
+    color: #111;
+    border: none;
+}
+.root img {
+    margin: -2px 5px 0;
+    vertical-align: middle;
+}
+#main > section {
+    border-top: 0;
+}
+#header > header .avatar {
+    margin: 0 auto 1.75em auto;
+    width: 6em;
+}
+#header > nav ul li {
+    border-top: 0;
+    padding: 0 15px;
+    font-size: 0.875em;
+}
+#header > nav ul li a {
+    padding: 0.75em 0;
+}
+#header > nav ul li a:hover {
+    background: #484aa3;
+}
+#header > nav ul li a.active:hover {
+    background: #FFF;
+}
+#header header h1 {
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+#header header p {
+    font-size: 0.875em;
+	display: none;
+    font-style: normal;
+    line-height: 1.4;
+    color: #FFF;
+}
+ul.icons li {
+    padding-right: 0.5em;
+    font-size: 0.875em;
+}
+#header > footer .icons li a {
+    color: #FFF;
+}
+h3, h4 {
+    color: #333;
+    display: inline-block;
+}
+h3 a {
+    position: relative;
+    top: -4px;
+    display: inline-block;
+    padding: 0 8px;
+    margin-left: 5px;
+    height: 24px;
+    line-height: 24px;    
+    font-size: 14px;
+    color: #FFF;
+    border-radius: 5px;
+    background-color: #5052b5;
+    -webkit-transition: margin 0.3s;
+    transition: margin 0.3s;
+}
+h3 a:hover {
+    margin-left: 8px;
+    color: #FFF!important;
+}
+h3.landing {
+    font-size: 2.25em;
+}
+h3.landing span.hide-xs {
+    display: none;
+}
+h3.landing span.display-xs {
+    display: inline;
+}
+#one header h3 + p, p.highlight {
+    border-left: solid 8px #5052b5;
+    margin: 0 0 1.6875em 0;
+    padding: 0 0 0 1em;
+    font-size: 1.2em;
+    color: #333;
+}
+header h3 + p {
+    margin: 0 0 2.25em 0;
+    font-size: 100%;
+    color: #111;
+}
+#one .image.fit {
+    margin: 0;
+}
+p {
+    color: #111;
+}
+ul.feature-icons li {
+    width: 96%;
+    color: #333;
+}
+ul.feature-icons li span {
+    font-size: 1.2em;
+}
+.row > .c-12 {
+    width: 100%;
+}
+.row > .c-6 {
+    width: 50%;
+}
+.image img {
+    border-radius: 0;
+}
+.image.fit figure {
+    position: relative;
+}
+.image.fit figure figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 15px;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #FFF;
+    background-color: #000;
+    opacity: 0.75;
+}
+#footer {
+    background: #e1e1e1;
+    color: #111;
+    padding: 2em 0 0;
+}
+#footer .copyright li {
+    margin-top: 0.25em;
+    border-left-color: #999;
+}
+#footer .copyright li a {
+    border: none;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+#header header p {
+    display: block; 
+}
+ul.feature-icons li {
+    width: 48%;
+}
+ul.feature-icons li:nth-child(5), ul.feature-icons li:nth-child(6) {
+    margin-bottom: 0;
+}
+h3.landing span.hide-xs {
+    display: inline;
+}
+h3.landing span.display-xs {
+    display: none;
+}
+.row > .c-12 {
+    width: 50%;
+}
+.row > .c-6 {
+    width: 33.33333%;
+}
+.pagination .container {
+    padding: 0 0 2em !important;
+}
+}
+
+@media (min-width: 992px) {
+section.gradient:first-child::before {
+    height: 20px;
+}
+}
+
+@media (min-width: 1200px) {
+}
