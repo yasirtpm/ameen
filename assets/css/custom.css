@@ -233,10 +233,8 @@ h3.landing span.display-xs {
     font-size: 1.2em;
     color: #333;
 }
-header h3 + p {
-    margin: 0 0 2.25em 0;
-    font-size: 100%;
-    color: #111;
+p.highlight span {
+    display: block;
 }
 #one .image.fit {
     margin: 0;
