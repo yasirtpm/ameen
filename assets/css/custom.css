@@ -234,7 +234,7 @@ h3.landing span.display-xs {
     color: #333;
 }
 p.highlight span {
-    display: inline-block;
+    display: block;
 }
 #one .image.fit {
     margin: 0;
